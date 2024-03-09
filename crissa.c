@@ -10,26 +10,26 @@ int main(void) {
     sense_fb_bitmap_t *bm=fb->bitmap;
 
 
-    // Top of sigma
-    bm->pixel[7][0]=WHITE;
-    bm->pixel[6][0]=WHITE;
-    bm->pixel[5][0]=WHITE;
-    bm->pixel[4][0]=WHITE;
+    // letter C
+    bm->pixel[0][1]=WHITE;
+    bm->pixel[1][0]=WHITE;
+    bm->pixel[2][0]=WHITE;
     bm->pixel[3][0]=WHITE;
-
-    // Middle
+    bm->pixel[4][0]=WHITE;
+    bm->pixel[5][0]=WHITE;
     bm->pixel[6][1]=WHITE;
-    bm->pixel[5][2]=WHITE;
-    bm->pixel[4][3]=WHITE;
-    bm->pixel[5][4]=WHITE;
-    bm->pixel[6][5]=WHITE;
-
-    // Bottom of sigma
-    bm->pixel[7][6]=WHITE;
+    bm->pixel[7][2]=WHITE;
+    bm->pixel[7][3]=WHITE;
+    bm->pixel[7][4]=WHITE;
+    bm->pixel[7][5]=WHITE;
     bm->pixel[6][6]=WHITE;
-    bm->pixel[5][6]=WHITE;
-    bm->pixel[4][6]=WHITE;
-    bm->pixel[3][6]=WHITE;
+    bm->pixel[5][7]=WHITE;
+    bm->pixel[4][7]=WHITE;
+    bm->pixel[3][7]=WHITE;
+    bm->pixel[2][7]=WHITE;
+    bm->pixel[1][7]=WHITE;
+    bm->pixel[0][6]=WHITE;
+
 
     // see: man 3 sleep
     sleep(2);
