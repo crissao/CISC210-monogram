@@ -6,4 +6,4 @@ A green shamrock will appear on the display for ~2 seconds.
 The display will go blank.
 
 Compile this program using:
-cc -o crissa crissa.c -L ~/lib -I ~/include -lsense
+cc -o crissao crissao.c -L ~/lib -I ~/include -lsense
