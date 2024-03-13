@@ -3,7 +3,7 @@ Then the display should go blank for ~1 second.
 The letter O will be displayed in rainbow colors for ~2 seconds.
 The display will go blank for ~1 second.
 A green shamrock will appear on the display for ~2 seconds.
-The display will go blank.
+The display will go blank and the program will end.
 
 Compile this program using:
 cc -o crissao crissao.c -L ~/lib -I ~/include -lsense
