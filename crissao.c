@@ -8,7 +8,7 @@
 #define RED 0x8000
 #define ORANGE 0xFCA0
 #define YELLOW 0xFFE0
-#define GREEN 0x6666
+#define GREEN 0x07e5
 #define LIGHTBLUE 0x07FF
 #define BLUE 0x1111
 #define PURPLE 0x801F
@@ -20,7 +20,7 @@ int main(void) {
 
 
     // letter C
-    bm->pixel[1][1]=PURPLE;
+   bm->pixel[1][1]=PURPLE;
     bm->pixel[2][0]=BLUE;
     bm->pixel[3][0]=LIGHTBLUE;
     bm->pixel[4][0]=GREEN;
